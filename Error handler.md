@@ -81,7 +81,7 @@ private static dynamic IsTheSame(Guid firstId, Guid secondId, string secondIdNam
         
   ```
 ## Result
-```yaml
+```json
 {
     "errors": {
         "Id": [
