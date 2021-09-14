@@ -80,3 +80,28 @@ private static dynamic IsTheSame(Guid firstId, Guid secondId, string secondIdNam
 }
         
   ```
+## Result
+```yaml
+{
+    "errors": {
+        "Id": [
+            "Id cannot be null, empty or white space"
+        ],
+        "CreatedBy": [
+            "CreatedBy cannot be null"
+        ],
+        "UpdatedBy": [
+            "UpdatedBy cannot be null"
+        ],
+        "FirstName": [
+            "FirstName cannot be null, empty or white space"
+        ],
+        "LastName": [
+            "LastName cannot be null, empty or white space"
+        ]
+    },
+    "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+    "title": "Invalid student, please check the errors and try again",
+    "status": 400
+}
+```
